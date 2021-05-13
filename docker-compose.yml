@@ -13,8 +13,8 @@ services:
         volumes:
             - ./config/:/config
         environment:
-            - CONFIG_MODE=filesystem
-            #- CONFIG_MODE=git
+            #- CONFIG_MODE=filesystem
+            - CONFIG_MODE=git
             - INIT_SLEEP_SECONDS=5
             - CONSUL_URL=consul
             - ENABLE_SPRING=true

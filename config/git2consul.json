@@ -2,10 +2,10 @@
   "version": "1.0",
   "repos" : [{
     "name" : "config",
-    "url" : "https://github.com/PierreBesson/test-registry.git",
-    "branches" : ["master"],
+    "url" : "https://github.com/baloz/config-server.git",
+    "branches" : ["main"],
     "include_branch_name" : false,
-    "source_root": "consul-config/",
+    "source_root": "go-config/",
     "hooks": [{
       "type" : "polling",
       "interval" : "1"
